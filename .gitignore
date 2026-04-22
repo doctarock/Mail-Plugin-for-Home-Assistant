@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build and package output
+dist/
+build/
+coverage/
+*.tgz
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local runtime state
+data/
+state/
+secrets/
+*.sqlite
+*.sqlite3
